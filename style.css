@@ -4,7 +4,7 @@
 }
 
 .header {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     /* justify-content: space-between; */
     height: auto;
@@ -14,7 +14,17 @@
 }
 .header-left, .header-middle, .header-right {
     border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 .header-left {
-    flex: 1;
+    flex-grow: 1;
+    padding: 10px;
+}
+.header-middle {
+    flex-basis: 100%;
+}
+.header-right {
+    flex-shrink: 0;
 }
