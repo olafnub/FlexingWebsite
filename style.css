@@ -34,5 +34,23 @@
     /* flex: 1; */
     /* justify-content: flex-end; this will flex end the items inside the box*/
     border: 1px solid chartreuse;
+}
 
+.outer-box {
+    width: 300px;
+    height: auto;
+    background: pink;
+    border: 3px solid green;
+    display: flex;
+    padding: 60px;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+.box-1, .box-2, .box-3 {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 40px;
+    background: black;
+    border: 2px solid green;
 }
