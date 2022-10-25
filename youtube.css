@@ -1,0 +1,14 @@
+body {
+    display: flex;
+}
+.box-1 {
+    /* display: flex; */
+    border: 1px solid green;
+}
+.box-2 {
+    border: 3px dotted chocolate;
+    align-self: center;
+}
+.box-3 {
+    flex-direction: column;
+}
