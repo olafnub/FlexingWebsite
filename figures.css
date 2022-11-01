@@ -1,0 +1,13 @@
+.michelle, .section-2 .dale, .robert {
+    width: 240px;
+    border: 1px solid green;
+    word-wrap:break-word;
+    height: 162.12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1, .section-2 {
+    border: 1px solid green;
+}
