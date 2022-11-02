@@ -26,3 +26,25 @@
 .body-3 .section-2 {
     order: -1;
 }
+.new-body {
+    display: flex;
+    flex-direction: column;
+}
+.new-body .header {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid green;
+    align-items: center;
+}
+.new-body .red {
+    border: 1px solid red;
+}
+.new-body .black {
+    border: 1px solid black;
+}
+.new-body .blue {
+    border: 1px solid blue;
+}
+.new-body .yellow {
+    border: 1px solid yellow;
+}
