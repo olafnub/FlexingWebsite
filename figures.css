@@ -1,4 +1,4 @@
-.body, .body-2, .body-3 {
+.body, .body-2, .body-3, .body-4 {
     display: flex;
 }
 
@@ -48,4 +48,8 @@
 }
 .new-body .yellow {
     border: 1px solid yellow;
+}
+.body-4 {
+    border: 1px solid green;
+   
 }
